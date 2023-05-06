@@ -1,0 +1,56 @@
+#bodyColor{
+    background: #BDBDBD;
+}
+.btn_secondary{
+    width: 231px;
+    height: 68px;
+    border: 1px solid #191A23;
+    background: #BDBDBD;
+    border-radius: 14px;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #000000;
+}
+.btn_primary{
+    width: 264px;
+    height: 68px;
+    background: #191A23;
+    border-radius: 14px;
+    color: white;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+}
+.font-nav-link{
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #000000;
+    margin-right: 40px;
+    text-transform: capitalize;
+}
+.banner_header{
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 77px;
+    color: #000000;
+}
+.banner_text{
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #000000;
+}
