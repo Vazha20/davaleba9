@@ -1,11 +1,8 @@
-#bodyColor{
-    background: #BDBDBD;
-}
 .btn_secondary{
     width: 231px;
     height: 68px;
     border: 1px solid #191A23;
-    background: #BDBDBD;
+    background: white;
     border-radius: 14px;
     font-family: 'Space Grotesk';
     font-style: normal;
@@ -54,3 +51,118 @@
     line-height: 28px;
     color: #000000;
 }
+.border_size{
+    width: 600px;
+    height: 310px;
+    border: 1px solid #191A23;
+    box-shadow: 0px 5px 0px #191A23;
+    border-radius: 45px;
+    padding: 50px;
+    
+}
+.bg_gray{
+    background: #F3F3F3;
+}
+.bg_gray h2{
+    background: #B9FF66;
+    
+    padding: 0px 7px;
+   
+}
+.bg_green{
+    background: #B9FF66;
+}
+.bg_green h2{
+    padding: 0px 7px;
+    background: #FFFFFF;
+    border-radius: 7px;
+}
+.bg_black{
+    background: #191A23;
+}
+.bg_black h2{
+    background: #B9FF66;
+border-radius: 7px;
+padding: 0px 7px;
+
+}
+.click_icon{
+
+
+}
+h2{
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 38px;
+    color: #000000;
+}
+.info{
+    padding: 0px 60px;
+    background: #F3F3F3;
+    border-radius: 45px;
+    margin-top: 124px;
+    }
+
+.guide{
+    background: #191A23;
+    border-radius: 45px;
+    padding: 60px 70px;
+    margin-top: 100px;
+}
+.guide p{
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #FFFFFF;
+    }
+
+
+   
+.mobile_only {
+    display: none;
+} 
+
+@media only screen and (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+    .desktop_only {
+        display: none;
+    }
+    .mobile_only{
+        display: flex;
+    }
+    .col-xs-12{
+        width: 100%;
+    }
+    .banner_header{
+        font-family: 'Space Grotesk';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 43px;
+        line-height: 55px;
+        color: #000000;
+        width: 90%;
+    }
+    .banner_text{
+        font-family: 'Space Grotesk';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #000000;
+        width: 90%;
+    }
+    .mb_banner{
+        width: 90%;
+    }
+    .btn_primary{
+        width: 90%;
+    }
+    
+  
+}   
